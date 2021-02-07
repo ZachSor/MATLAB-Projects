@@ -30,7 +30,7 @@ else
 
     %This removes the zeros that are in the siftedData
     while k <= length(siftedData)
-        if (siftedData(k) == 0)   %big boy problem
+        if (siftedData(k) == 0)   
             siftedData(k) = [];
         else
             k = k+1;
